@@ -8,3 +8,6 @@ The first thing you want to do is setup the config.php file located in this fold
 
 Thanks!
 -[Jeff Kilroy](http://jeffkilroy.com)
+
+###To Do
+- Currently, a non-licensed application recieves an annoying advert in the administration panel. I will be removing this soon so there will be no more free / premium versions of nakid.
