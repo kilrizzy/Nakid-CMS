@@ -1,0 +1,8 @@
+.expArrow{
+	padding-left: 20px;
+	background: url(add.png) no-repeat 0px 4px;
+}
+.collArrow{
+	padding-left: 20px;
+	background: url(delete.png) no-repeat 0px 4px;
+}

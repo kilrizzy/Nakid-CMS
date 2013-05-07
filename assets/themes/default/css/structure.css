@@ -1,0 +1,250 @@
+/*DOCUMENT*/
+* {
+	margin: 0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+html, body{
+	height:100%;
+}
+body {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#all{
+	margin:0px;
+	padding:0px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom:-30px;
+}
+#page{
+	margin: 0 auto 0 auto;
+	text-align:left;
+	width:980px;
+}
+/*HEADER*/
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 62px;
+}
+#header #logo {
+	float: left;
+}
+#header #logo h1{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+#header #logo h1 a {
+	display: block;
+	text-indent: -9999px;
+	margin: 0px;
+	padding: 0px;
+}
+/*NAVIGATION*/
+#navigation {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+}
+#navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+#navigation ul li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+	position:relative;
+	z-index:1000;
+}
+#navigation ul li a {
+	margin: 0px;
+	height: 60px;
+	padding: 0px 30px 0px 30px;
+	display: block;
+}
+#navigation ul li:hover ul, #navigation ul li.hover ul {
+	position: absolute;
+	z-index:1000;
+	display: block;
+	left: 0;
+	width: 200px;
+	margin: 0;
+	padding: 0; 
+}
+#navigation ul li:hover li, #navigation ul li.hover li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: none;
+	position:static;
+}
+#navigation ul li:hover li a, #navigation ul li.hover li a {
+	margin: 0px;
+	height: auto;
+	padding: 10px 30px 10px 30px;
+	display: block;
+}
+#navigation ul li ul {
+	display: none;
+}
+/*CONTENT*/
+#content dl{
+	margin:10px 0px 10px 0px;
+	padding:5px;
+}
+#content dt{
+	margin:0px;
+	padding:0px;
+}
+#content dd{
+	margin:0px 0px 5px 0px;
+	padding:0px;
+}
+/*MESSAGES*/
+#messages {
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	display: block;
+}
+#messages ul {
+	margin: 0px;
+	padding: 0px;
+}
+#messages ul li {
+	padding: 3px;
+	margin: 0px 0px 5px 0px;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+}
+#messages ul li p {
+	padding: 0px;
+	margin: 5px 0px 0px 10px;
+}
+/*FOOTER*/
+#footer, .push {
+	height: 30px; /* .push must be the same height as .footer */
+}
+#footer {
+	width:100%;
+	height: 30px;
+	overflow:hidden;
+	position:relative;
+}
+#footer_inner{
+	width:960px;
+	margin: 0 auto 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+#footer p {
+	margin: 0px;
+	padding: 0px;
+	line-height:30px;
+}
+/*---MISC---*/
+/*:D*/
+#messages ul li #i_am_a_broke_developer{
+	font-size:10px;
+}
+#messages ul li #i_am_a_broke_developer a{
+	color:#333;
+	text-decoration:none ;
+	font-weight:normal ;
+}
+#messages ul li #i_am_a_broke_developer a:hover{
+	text-decoration:underline ;
+}
+/*Clearfix*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+/*Columns*/
+.widesection div.lcol {
+	float:left;
+	width:650px;
+}
+.widesection div.rcol {
+	float:left;
+	width:280px;
+	margin-left:15px;
+}
+/*JQGrid*/
+.ui-jqgrid table td, .ui-jqgrid table th{
+	font-size:12px;
+}
+.ui-jqdialog-content *{
+	font-size:12px;
+}
+/*Popups*/
+#page_popup{
+	text-align:left;
+	margin:0px;
+	padding:0px 15px 0px 15px;
+}
+#page_popup form.niceform1{
+	width:auto;
+}
+/*Errors*/
+.php_error{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	background-color:#000;
+	color:#FFF;
+	border-bottom:solid 1px #FFF;
+}
+.php_error *{
+	margin:0px;
+	padding:0px;
+}
+.php_error h4{
+	color:#cc6666;
+	font-size:15px;
+	font-weight:normal;
+	margin:0px 0px 8px 0px;
+}
+.php_error p{
+	color:#EEEEEE;
+	font-size:10px;
+	font-weight:normal;
+	margin:0px 0px 5px 0px;
+}
+.php_error a{
+	color:#FFF;
+	font-weight:bold;
+}
+.php_error .help{
+	font-size:13px;
+}

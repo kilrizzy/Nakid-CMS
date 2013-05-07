@@ -1,14 +1,10 @@
 Thanks for checking out Nakid CMS.
 
+Nakid CMS is built with CodeIgniter as a stand-alone content management system. You can drop in snippits of code onto your existing website that will pull in dynamic content.
+
+Here's a cheesey commercial: https://www.youtube.com/watch?v=i63ngtGpabs
+
 The first thing you want to do is setup the config.php file located in this folder with your current database settings.
 
-Check out the documentation for more information:
-
-http://nakid.org/docs
-
-If you run into any trouble, send me an email:
-
-info@nakid.org
-
 Thanks!
--Jeff Kilroy
+-[Jeff Kilroy](http://jeffkilroy.com)

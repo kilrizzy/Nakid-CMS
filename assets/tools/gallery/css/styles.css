@@ -1,0 +1,64 @@
+/* CSS Document */
+.nakid_gallery{
+	margin:0px;
+	padding:0px 0px 10px 0px;
+}
+/* CATEGORY LIST ABOVE */
+.nakid_gallery.category_above .nakid_gallery_categories{
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+.nakid_gallery.category_above .nakid_gallery_categories ul{
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+.nakid_gallery.category_above .nakid_gallery_categories ul li{
+	display:block;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+}
+.nakid_gallery.category_above .nakid_gallery_categories ul li a{
+	display:block;
+	margin:0px;
+	padding:5px;
+	text-decoration:none;
+}
+/* CATEGORY LIST SIDE */
+.nakid_gallery.category_side .nakid_gallery_categories{
+	display:block;
+	width:150px;
+	float:left;
+	margin:0px 10px 0px 0px;
+	padding:0px;
+}
+.nakid_gallery.category_side .nakid_gallery_content{
+	float:left;
+	width:650px;
+}
+/* IMAGE LIST */
+.nakid_gallery .nakid_gallery_images li{
+	margin:0px 10px 10px 0px;
+	padding:0px;
+	float:left;
+	list-style-type:none;
+	width:150px;
+	height:130px;
+	text-align:center;
+}
+.nakid_gallery .nakid_gallery_images li img{
+	border:solid 1px #000000;
+}
+.nakid_gallery .nakid_gallery_images li label{
+	display:block;
+	padding-bottom:5px;
+}
+.clearline{
+	clear:both;
+	height:0px;
+	line-height:0px;
+	font-size:0px;
+}

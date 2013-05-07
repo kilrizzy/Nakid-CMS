@@ -1,0 +1,133 @@
+form.niceform1 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	width: 500px;
+}
+form.niceform1 ul {
+	margin: 0px;
+	padding: 0px;
+}
+form.niceform1 li {
+	display: block;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+form.niceform1 ul li h3{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #0A1423;
+	text-decoration: underline;
+}
+form.niceform1 ul li ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+form.niceform1 ul li ul li {
+	clear:both;
+}
+form.niceform1 ul li ul li label {
+	float:left;
+	width:250px;
+}
+form.niceform1 label {
+	display: block;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+form.niceform1 .textfield {
+	font-size: 18px;
+	width: 90%;
+}
+form.niceform1 small {
+	display: block;
+	font-size: 11px;
+	color: #666;
+}
+form.niceform1 .submit input {
+	font-size: 16px;
+	color: #164482;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*
+*/
+form.niceform2 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+form.niceform2 ul {
+	margin: 0px;
+	padding: 0px;
+}
+form.niceform2 li {
+	display: block;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+form.niceform2 ul li h3{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #0A1423;
+	text-decoration: underline;
+}
+form.niceform2 ul li ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+form.niceform2 ul li ul li {
+	clear:both;
+}
+form.niceform2 ul li ul li label {
+	float:left;
+	width:250px;
+}
+form.niceform2 label {
+	display: block;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+form.niceform2 .textfield {
+	font-size: 18px;
+	width: 90%;
+}
+form.niceform2 .selectfield {
+	font-size: 16px;
+	font-weight:normal;
+}
+form.niceform2 small {
+	display: block;
+	font-size: 11px;
+	color: #666;
+}
+form.niceform2 .submit input {
+	font-size: 16px;
+	color: #164482;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,181 @@
+/*DOCUMENT*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FFF;
+	background-image: url(../images/bg_body.png);
+}
+#all {
+	background-image: url(../images/bg_header.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#page{
+}
+/*HEADER*/
+#header {
+	background-image: url(../images/bg_header.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #2C5B9A;
+}
+#header #logo {
+	margin: 0px;
+	padding: 6px 0px 0px 6px;
+	width: 190px;
+}
+#header #logo h1 a {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 178px;
+}
+/*NAVIGATION*/
+#navigation ul li a {
+	color: #cdd8e7;
+	font-family: Arial, Geneva, sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 60px;
+	height: 60px;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	text-shadow: 1px 1px 1px #0c275d;
+}
+#navigation ul li.comingsoon a{
+	color: #a0aec1 !important;
+}
+#navigation ul li a:hover {
+	background-image: url(../images/bg_nav_hover.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#navigation ul li:hover ul, #navigation ul li.hover ul {
+	background-color:#517db7;
+}
+#navigation ul li:hover li, #navigation ul li.hover li {
+	border-bottom:solid 1px #6b94c9;
+}
+#navigation ul li:hover li a, #navigation ul li.hover li a {
+   color: #e5eaf1;
+   font-family: Arial, Geneva, sans-serif;
+   text-decoration: none;
+   font-size: 16px;
+	font-weight: normal;
+	line-height:normal;
+	text-shadow: 1px 1px 1px #0c275d;
+}
+/*CONTENT*/
+#content {
+	margin: 0px;
+	padding: 10px 10px 50px 10px;
+}
+#content h1 {
+	color: #10223A;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+}
+#content h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #0A1423;
+	text-decoration: underline;
+}
+#content h3 {
+	color: #10223A;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+}
+#content p {
+	font-size: 14px;
+}
+#content a {
+	color: #165283;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#content a:hover {
+	text-decoration: underline;
+}
+#content dl{
+	background-color:#ecf1f7;
+	border:dashed 1px #dce4ef;
+	font-family:"Courier New", Courier, monospace;
+}
+#content dt{
+	font-size:12px;
+	font-weight:bold;
+}
+#content dd{
+	font-size:12px;
+}
+/*MESSAGES*/
+#messages ul li {
+	border: 1px solid #000;
+	background-color: #CCC;
+}
+#messages ul li.error {
+	background-color: #FFF4F4;
+	border: 1px solid #900;
+}
+#messages ul li.alert {
+	border: 1px solid #6A6A00;
+	background-color: #FFFFF2;
+}
+#messages ul li.message {
+	background-color: #F2FFF2;
+	border: 1px solid #030;
+}
+#messages ul li p {
+	font-size: 90%;
+}
+/*FOOTER*/
+#footer {
+	background-color: #164482;	/*padding: 10px;*/
+	color: #C1CFE4;
+	font-size:10px;
+	text-align:right;
+}
+#footer a {
+	color: #E8E9EC;
+	text-decoration: none;
+	font-weight: bold;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+/*---MISC---*/
+/*Popups*/
+#page_popup{
+	background:#FFF;
+}
+#page_popup h1 {
+	color: #10223A;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+}
+#page_popup h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #0A1423;
+	text-decoration: underline;
+}
+#page_popup p {
+	font-size: 14px;
+}
+#page_popup a {
+	color: #165283;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#page_popup a:hover {
+	text-decoration: underline;
+}
