@@ -6,6 +6,30 @@ by Jason Costello, @jsncostello
 @import url(pygment_trac.css);
 
 /*******************************************************************************
+\
+*******************************************************************************/
+#project_title{
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  width: 178px;
+  height: 48px;
+}
+#main_content{
+  position: relative;
+}
+#main{
+  margin-right:250px;
+}
+#sidebar{
+  position:absolute;
+  width:220px;
+  top: 60px;
+  right: 15px;
+}
+
+
+/*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
 
@@ -272,7 +296,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 950px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -293,16 +317,16 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #0a2851;
+  background: -moz-linear-gradient(top, #3974af, #0a2851);
+  background: -webkit-linear-gradient(top, #3974af, #0a2851);
+  background: -ms-linear-gradient(top, #3974af, #0a2851);
+  background: -o-linear-gradient(top, #3974af, #0a2851);
+  background: linear-gradient(top, #3974af, #0a2851);
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 15px 10px 15px 10px;
 }
 
 #project_title {
@@ -315,10 +339,11 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  font-style: italic;
 }
 
 #downloads {
@@ -371,7 +396,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #0a2851;
 }
 
 
@@ -384,7 +409,15 @@ Small Device Styles
   body {
     font-size:14px;
   }
-
+  #main{
+    margin: 0px;
+  }
+  #sidebar{
+  position:static;
+  width:auto;
+  top: auto;
+  right: auto;
+}
   #downloads {
     display: none;
   }
