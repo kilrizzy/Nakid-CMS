@@ -11,3 +11,7 @@ Thanks!
 
 ###To Do
 - Currently, a non-licensed application recieves an annoying advert in the administration panel. I will be removing this soon so there will be no more free / premium versions of nakid.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kilrizzy/nakid-cms/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
